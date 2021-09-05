@@ -1,7 +1,7 @@
 {
   "name": "stinkerpg",
   "description": "A Postgresql management tool",
-  "version": "0.7.1",
+  "version": "0.0.1",
   "author": "kevin.vlahos@gmail.com",
   "license": "ISC",
   "keywords": [
