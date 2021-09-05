@@ -14,9 +14,9 @@ The `sync` command is different entirely, `sync` runs a hashing function on the 
 
 ### Installation.
 
-Required nodejs v6+
+Required nodejs v10+
 
-`npm install -g stinkerpg`
+`npm i -g git+https://github.com/iamkevla/stinkerpg.git`
 
 ## Documentation
 
