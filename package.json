@@ -1,16 +1,8 @@
 {
-  "name": "thinker",
-  "description": "A RethinkDB management tool",
+  "name": "stinkerpg",
+  "description": "A Postgresql management tool",
   "version": "0.7.1",
-  "homepage": "https://github.com/internalfx/thinker",
-  "author": "InternalFX",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/internalfx/thinker.git"
-  },
-  "bugs": {
-    "url": "https://github.com/internalfx/thinker/issues"
-  },
+  "author": "kevin.vlahos@gmail.com",
   "license": "ISC",
   "keywords": [
     "cli",
@@ -18,7 +10,7 @@
   ],
   "preferGlobal": true,
   "bin": {
-    "thinker": "./bin/thinker"
+    "stinkerpg": "./bin/stinkerpg"
   },
   "main": "index.js",
   "scripts": {
@@ -33,8 +25,9 @@
     "lodash": "^4.14.0",
     "minimist": "^1.2.0",
     "moment": "^2.14.1",
+    "pg": "^8.7.1",
+    "pg-cursor": "^2.7.1",
     "require-all": "^2.0.0",
-    "rethinkdbdash": "^2.3.19",
     "verbalize": "^0.2.0"
   },
   "devDependencies": {},
